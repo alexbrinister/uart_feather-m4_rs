@@ -1,0 +1,7 @@
+Set binary mode
+version()=Adafruit CircuitPython 5.3.0 on 2020-04-29; Adafruit Feather M4 Express with samd51j19
+Connected at 921600 baud
+readWord(addr=0)=0x30303077
+readWord(addr=0xe000ed00)=0x30303030
+readWord(addr=0x400e0740)=0x23342c30
+readWord(addr=0x400e0744)=0x30304577
