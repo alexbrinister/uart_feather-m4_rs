@@ -42,8 +42,8 @@ fn main() -> ! {
 
     loop {
         led_pin.set_high();
-        delay.delay_ms(2_000u16);
+        delay.delay_ms(250u16);
         led_pin.set_low();
-        delay.delay_ms(2_000u16);
+        delay.delay_ms(250u16);
     }
 }
