@@ -27,5 +27,5 @@ UART test on the Adafruit Feather M4. Written in Rust
 
 # Building and flashing the program 
 ```
-cargo hf2 --release --bin blink_led
+cargo hf2 --release
 ```
