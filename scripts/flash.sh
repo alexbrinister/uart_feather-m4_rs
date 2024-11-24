@@ -24,11 +24,10 @@ function run_bossa() {
   bossac \
     --port "$2" \
     --offset 0x4000 \
+    --erase \
     --write \
     --verify \
     --reset \
-    --info \
-    --debug \
     "$1"
 }
 
