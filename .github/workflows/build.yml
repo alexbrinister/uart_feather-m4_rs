@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: "checkout code"
         uses: actions/checkout@v4
+
+      - name: "add thumbv7em-none-eabihf target to toolchain"
+        run: rustup target add thumbv7em-none-eabihf
       
       - name: build
         run: cargo build --verbose --release
