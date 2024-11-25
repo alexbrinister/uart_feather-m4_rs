@@ -8,6 +8,7 @@ UART test on the Adafruit Feather M4. Written in Rust
 
 # Sources
 - [Feather M4 BSP blinky_basic Example](https://github.com/atsamd-rs/atsamd/blob/master/boards/feather_m4/examples/blinky_basic.rs)
+- [Feather M4 BSP neopixel_rainbow Example](https://github.com/atsamd-rs/atsamd/blob/master/boards/feather_m4/examples/neopixel_rainbow.rs)
 
 # Prerequisite set up
 - Install `cargo-hf2` (`cargo install cargo-hf2`)
