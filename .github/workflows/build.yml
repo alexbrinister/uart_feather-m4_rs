@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: bin
-          path: target/thumbv7em-none-eabihf/release/build_led-rs
+          path: target/thumbv7em-none-eabihf/release/blink_led-rs
 
 
     
