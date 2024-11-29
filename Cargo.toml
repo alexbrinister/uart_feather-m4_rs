@@ -3,7 +3,7 @@ authors = ["Alex Brinister <brinisal@tutamail.com>"]
 edition = "2021"
 readme = "README.md"
 name = "blink_led-rs"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
 cortex-m = "0.7"
@@ -14,6 +14,7 @@ feather_m4 = "0.14.0"
 nb = "1.1.0"
 smart-leds = "0.3"
 ws2812-timer-delay = "0.3"
+rucos-cortex-m = { git = "https://github.com/alexbrinister/rucos-rs.git", branch = "fix-naked-asm-compilation-error" }
 
 [features]
 use_semihosting = []
